@@ -1,10 +1,6 @@
-import math
-from typing import List
-from functools import partial
 import torch
 import torch.distributions
 from torch.autograd.functional import jacobian
-from torch import autograd
 
 from pyfilter.filters.base_filter import BaseFilter
 from pyfilter.models.base_model import BaseModel

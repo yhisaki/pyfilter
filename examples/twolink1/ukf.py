@@ -1,13 +1,12 @@
-import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.distributions
+from plot_results import plot_results
 
 from pyfilter.distributions import Delta
 from pyfilter.filters import UKF
 from pyfilter.models import TwoLink1
 from pyfilter.simulator import Simulator
-from plot_results import plot_results
 
 
 def main():
