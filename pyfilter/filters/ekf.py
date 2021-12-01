@@ -19,7 +19,7 @@ class EKF(BaseFilter):
         Q: torch.Tensor,
         R: torch.Tensor,
     ) -> None:
-        """Unscented Kalman Filter
+        """Extended Kalman Filter
 
         Args:
             model (BaseModel): model
