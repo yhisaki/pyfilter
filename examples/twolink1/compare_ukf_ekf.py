@@ -14,7 +14,7 @@ def main():
     T = 10.0
     dT = 0.01
 
-    twolink = TwoLink1(dt=dT)
+    twolink = TwoLink1(I2=3.0, dt=dT)
 
     initial_state_distribution = torch.distributions.MultivariateNormal(
         loc=torch.tensor([0.0, torch.pi / 4.0, 0.0, 0.0]),
